@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background: rgb(37, 37, 37) ;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#listMusic{
+  overflow-y: scroll;
+  height:500px;
+}
+#header{
+  height: 50px;
+}
+.list-group-item{
+  background: rgb(26, 26, 26);
+  color:white;
+}
+.list-group-item:focus{
+  background: grey;
+  color:white;
+}
+.list-group-item:hover{
+  background: grey;
+  color:white;
 }
